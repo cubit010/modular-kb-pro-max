@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6258d9aa-8d7e-43a4-85ee-a6910d695d8b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 63.5 14.605)
+		(size 55.88 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "445b1fa7-aeed-4c14-855f-479657d7fead")
+		(property "Sheetname" "numpad"
+			(at 63.5 13.8934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "numpad.kicad_sch"
+			(at 63.5 38.0496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "modular keyboard"
+				(path "/6258d9aa-8d7e-43a4-85ee-a6910d695d8b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 14.605)
+		(size 41.275 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c8a7524c-762f-44cd-828e-b9f60531d90a")
+		(property "Sheetname" "mainboard"
+			(at 13.97 13.8934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mainboard.kicad_sch"
+			(at 13.97 41.8596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "modular keyboard"
+				(path "/6258d9aa-8d7e-43a4-85ee-a6910d695d8b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
